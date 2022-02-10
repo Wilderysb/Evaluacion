@@ -1,0 +1,6 @@
+F:\Projects\PruebaTecnica\Evaluacion\Aplicacion\bin\Debug\Aplicacion.dll
+F:\Projects\PruebaTecnica\Evaluacion\Aplicacion\bin\Debug\Aplicacion.pdb
+F:\Projects\PruebaTecnica\Evaluacion\Aplicacion\obj\Debug\Aplicacion.csproj.AssemblyReference.cache
+F:\Projects\PruebaTecnica\Evaluacion\Aplicacion\obj\Debug\Aplicacion.csproj.CoreCompileInputs.cache
+F:\Projects\PruebaTecnica\Evaluacion\Aplicacion\obj\Debug\Aplicacion.dll
+F:\Projects\PruebaTecnica\Evaluacion\Aplicacion\obj\Debug\Aplicacion.pdb

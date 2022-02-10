@@ -1,0 +1,5 @@
+F:\Projects\PruebaTecnica\Evaluacion\Dominio\bin\Debug\Dominio.dll
+F:\Projects\PruebaTecnica\Evaluacion\Dominio\bin\Debug\Dominio.pdb
+F:\Projects\PruebaTecnica\Evaluacion\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+F:\Projects\PruebaTecnica\Evaluacion\Dominio\obj\Debug\Dominio.dll
+F:\Projects\PruebaTecnica\Evaluacion\Dominio\obj\Debug\Dominio.pdb
