@@ -1,5 +1,0 @@
-F:\Projects\PruebaTecnica\Evaluacion\Infraestructura\bin\Debug\Infraestructura.dll
-F:\Projects\PruebaTecnica\Evaluacion\Infraestructura\bin\Debug\Infraestructura.pdb
-F:\Projects\PruebaTecnica\Evaluacion\Infraestructura\obj\Debug\Infraestructura.csproj.CoreCompileInputs.cache
-F:\Projects\PruebaTecnica\Evaluacion\Infraestructura\obj\Debug\Infraestructura.dll
-F:\Projects\PruebaTecnica\Evaluacion\Infraestructura\obj\Debug\Infraestructura.pdb

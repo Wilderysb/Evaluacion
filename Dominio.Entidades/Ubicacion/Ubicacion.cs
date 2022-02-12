@@ -11,7 +11,8 @@ namespace Dominio.Entidades
     {
         [Key]
         public int Id { get; set; }
-
         public string Espacio { get; set; }
+        public virtual List<Evento> Eventos { get; set; }
+
     }
 }

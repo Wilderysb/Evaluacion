@@ -1,1 +1,0 @@
-F:\Projects\PruebaTecnica\Evaluacion\Dominio.Entidades\obj\Debug\Dominio.Entidades.csproj.CoreCompileInputs.cache

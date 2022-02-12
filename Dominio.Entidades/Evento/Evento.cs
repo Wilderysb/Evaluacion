@@ -32,9 +32,9 @@ namespace Dominio.Entidades
         [ForeignKey("IdUbicacion")]
         public virtual Ubicacion UbiPresencialEvento { get; set; }
         public string UbiRemotaEvento { get; set; }
-
-
-
+        public DateTime FechaEvento { get; set; }
+        public DateTime HoraInicioEvento { get; set; }
+        public DateTime HoraFinEvento { get; set; }
 
 
     }

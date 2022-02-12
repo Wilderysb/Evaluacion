@@ -10,7 +10,12 @@
       "ProjectGuid": "7cb8ec75-dcf3-4b27-bdf6-ac796e98ec5a",
       "DisplayName": "FrontNet",
       "ColorIndex": 1
+    },
+    "81e81092-8752-4bb5-848b-3d99a6d39b3b": {
+      "ProjectGuid": "81e81092-8752-4bb5-848b-3d99a6d39b3b",
+      "DisplayName": "Dominio.Entidades",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 3
 }
