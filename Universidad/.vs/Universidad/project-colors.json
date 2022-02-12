@@ -5,7 +5,12 @@
       "ProjectGuid": "5e11f635-4215-4f1a-93f4-34f5980fc4e8",
       "DisplayName": "FrontEnd",
       "ColorIndex": 0
+    },
+    "7cb8ec75-dcf3-4b27-bdf6-ac796e98ec5a": {
+      "ProjectGuid": "7cb8ec75-dcf3-4b27-bdf6-ac796e98ec5a",
+      "DisplayName": "FrontNet",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }
