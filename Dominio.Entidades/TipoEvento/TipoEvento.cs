@@ -8,13 +8,13 @@ using System.Threading.Tasks;
 
 namespace Dominio.Entidades
 {
-    public class TipoEventos
+    public class TipoEvento
     {
         [Key]
         public int Id { get; set; }
         public string DesTipoEvento { get; set; }
-
         public virtual List<SubTipoEvento> SubTipoEventos { get; set; }
 
+      
     }
 }

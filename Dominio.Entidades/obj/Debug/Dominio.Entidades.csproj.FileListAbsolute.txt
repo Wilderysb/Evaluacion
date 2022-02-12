@@ -1,2 +1,5 @@
-F:\Projects\PruebaTecnica\Evaluacion\Dominio.Entidades\obj\Debug\Dominio.Entidades.csproj.AssemblyReference.cache
+F:\Projects\PruebaTecnica\Evaluacion\Dominio.Entidades\bin\Debug\Dominio.Entidades.dll
+F:\Projects\PruebaTecnica\Evaluacion\Dominio.Entidades\bin\Debug\Dominio.Entidades.pdb
 F:\Projects\PruebaTecnica\Evaluacion\Dominio.Entidades\obj\Debug\Dominio.Entidades.csproj.CoreCompileInputs.cache
+F:\Projects\PruebaTecnica\Evaluacion\Dominio.Entidades\obj\Debug\Dominio.Entidades.dll
+F:\Projects\PruebaTecnica\Evaluacion\Dominio.Entidades\obj\Debug\Dominio.Entidades.pdb
