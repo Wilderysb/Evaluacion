@@ -17,5 +17,6 @@ namespace Dominio.Entidades
 
         [ForeignKey("IdTipoEvento")]
         public virtual TipoEvento TipoEventos { get; set; }
+        public virtual List<Evento> Eventos { get; set; }
     }
 }

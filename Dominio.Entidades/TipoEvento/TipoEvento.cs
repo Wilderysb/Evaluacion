@@ -14,7 +14,7 @@ namespace Dominio.Entidades
         public int Id { get; set; }
         public string DesTipoEvento { get; set; }
         public virtual List<SubTipoEvento> SubTipoEventos { get; set; }
-
+        public virtual List<Evento> Eventos { get; set; }
       
     }
 }
