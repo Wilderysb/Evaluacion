@@ -42,11 +42,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositorios.Contratos\ICampusRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Dominio.Servicios\Implementacion\" />
     <Folder Include="Dominio.Servicios\Interface\" />
-    <Folder Include="Repositorios.Contratos\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Dominio.Entidades\Dominio.Entidades.csproj">
+      <Project>{81E81092-8752-4BB5-848B-3D99A6D39B3B}</Project>
+      <Name>Dominio.Entidades</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

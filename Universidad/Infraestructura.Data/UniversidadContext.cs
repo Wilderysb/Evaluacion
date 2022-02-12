@@ -13,7 +13,7 @@ namespace Infraestructura.Data
         public UniversidadContext() : base("DefaultConnection")
         {
             Database.SetInitializer<UniversidadContext>(null);
-            Configuration.LazyLoadingEnabled = false;
+           // Configuration.LazyLoadingEnabled = false;
         }
 
         public virtual DbSet<AsistenciaEvento> AsistenciaEvento { get;set; }
