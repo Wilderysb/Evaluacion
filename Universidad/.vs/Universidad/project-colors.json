@@ -15,7 +15,37 @@
       "ProjectGuid": "81e81092-8752-4bb5-848b-3d99a6d39b3b",
       "DisplayName": "Dominio.Entidades",
       "ColorIndex": 2
+    },
+    "9c14d92f-fa3c-4b65-8ba8-6793311054a1": {
+      "ProjectGuid": "9c14d92f-fa3c-4b65-8ba8-6793311054a1",
+      "DisplayName": "Dominio",
+      "ColorIndex": 3
+    },
+    "f8786f27-0b6f-4fd2-ad12-51e38b6f5832": {
+      "ProjectGuid": "f8786f27-0b6f-4fd2-ad12-51e38b6f5832",
+      "DisplayName": "Infraestructura.Data",
+      "ColorIndex": 4
+    },
+    "343e3c5f-2c48-448e-90cc-2dbfe1c03a9d": {
+      "ProjectGuid": "343e3c5f-2c48-448e-90cc-2dbfe1c03a9d",
+      "DisplayName": "Infraestructura",
+      "ColorIndex": 5
+    },
+    "116fb3d5-1ad6-49a6-8849-8b61381d1790": {
+      "ProjectGuid": "116fb3d5-1ad6-49a6-8849-8b61381d1790",
+      "DisplayName": "Aplicacion",
+      "ColorIndex": 6
+    },
+    "2d966585-469d-4602-8381-da141f695b31": {
+      "ProjectGuid": "2d966585-469d-4602-8381-da141f695b31",
+      "DisplayName": "Infraestructura.IoC",
+      "ColorIndex": 7
+    },
+    "05bdafd2-199c-46f9-9d24-849f902b9e9f": {
+      "ProjectGuid": "05bdafd2-199c-46f9-9d24-849f902b9e9f",
+      "DisplayName": "Infraestructura.Core",
+      "ColorIndex": 8
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 9
 }

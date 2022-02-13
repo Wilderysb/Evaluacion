@@ -33,6 +33,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -41,17 +43,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dominio.Servicios\Implementacion\CampusService.cs" />
+    <Compile Include="Dominio.Servicios\Interface\ICampusService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositorios.Contratos\ICampusRepository.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Dominio.Servicios\Implementacion\" />
-    <Folder Include="Dominio.Servicios\Interface\" />
+    <None Include="app.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Dominio.Entidades\Dominio.Entidades.csproj">
       <Project>{81E81092-8752-4BB5-848B-3D99A6D39B3B}</Project>
       <Name>Dominio.Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Universidad\Infraestructura.Core\Infraestructura.Core.csproj">
+      <Project>{05BDAFD2-199C-46F9-9D24-849F902B9E9F}</Project>
+      <Name>Infraestructura.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

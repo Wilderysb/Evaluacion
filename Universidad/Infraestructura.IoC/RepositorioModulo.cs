@@ -1,5 +1,7 @@
 ﻿using Autofac;
+using Dominio.Repositorios.Contratos;
 using Infraestructura.Data;
+using Infraestructura.Repositorios;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +14,8 @@ namespace Infraestructura.IoC
     {
         protected override void Load(ContainerBuilder builder)
         {
+            builder.RegisterType<CampusRepository>().As<ICampusRepository>().InstancePerLifetimeScope();
+
 
         }
     }

@@ -10,7 +10,7 @@ namespace Dominio.Entidades
     public class Ubicacion
     {
         [Key]
-        public int Id { get; set; }
+        public int IdUbicacion { get; set; }
         public string Espacio { get; set; }
         public virtual List<Evento> Eventos { get; set; }
 

@@ -12,6 +12,8 @@ namespace Infraestructura.IoC
     {
         protected override void Load (ContainerBuilder builder)
         {
+            builder.RegisterModule(new RepositorioModulo());
+
             builder.RegisterType<UniversidadContext>().AsSelf().InstancePerRequest();
 
 

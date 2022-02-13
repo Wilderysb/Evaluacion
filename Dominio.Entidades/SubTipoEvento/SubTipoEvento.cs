@@ -11,12 +11,10 @@ namespace Dominio.Entidades
     public class SubTipoEvento
     {
         [Key]
-        public int Id { get; set; }
+        public int IdSubTipoEvento { get; set; }
 
         public string DesSubTipoEvento { get; set; }
 
-        [ForeignKey("IdTipoEvento")]
-        public virtual TipoEvento TipoEventos { get; set; }
-        public virtual List<Evento> Eventos { get; set; }
+       public virtual List<Evento> Eventos { get; set; }
     }
 }

@@ -41,11 +41,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Aplicacion.Servicios\Implementacion\CampusService.cs" />
+    <Compile Include="Aplicacion.Servicios\Interface\ICampusService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Aplicacion.Servicios\Implementacion\" />
-    <Folder Include="Aplicacion.Servicios\Interface\" />
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Dominio.Entidades\Dominio.Entidades.csproj">
+      <Project>{81E81092-8752-4BB5-848B-3D99A6D39B3B}</Project>
+      <Name>Dominio.Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Dominio\Dominio.csproj">
+      <Project>{9C14D92F-FA3C-4B65-8BA8-6793311054A1}</Project>
+      <Name>Dominio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Universidad\Infraestructura.Core\Infraestructura.Core.csproj">
+      <Project>{05BDAFD2-199C-46F9-9D24-849F902B9E9F}</Project>
+      <Name>Infraestructura.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

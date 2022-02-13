@@ -1,4 +1,6 @@
-﻿using Autofac;
+﻿using Aplicacion.Aplicacion.Servicios.Implementacion;
+using Aplicacion.Aplicacion.Servicios.Interface;
+using Autofac;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +13,8 @@ namespace Infraestructura.IoC
     {
         protected override void Load(ContainerBuilder builder)
         {
+            builder.RegisterType<CampusService>().As<ICampusService>().InstancePerLifetimeScope();
+
 
         }
 

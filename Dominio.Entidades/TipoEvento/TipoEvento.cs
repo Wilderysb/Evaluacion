@@ -11,7 +11,7 @@ namespace Dominio.Entidades
     public class TipoEvento
     {
         [Key]
-        public int Id { get; set; }
+        public int IdTipoEvento { get; set; }
         public string DesTipoEvento { get; set; }
         public virtual List<SubTipoEvento> SubTipoEventos { get; set; }
         public virtual List<Evento> Eventos { get; set; }

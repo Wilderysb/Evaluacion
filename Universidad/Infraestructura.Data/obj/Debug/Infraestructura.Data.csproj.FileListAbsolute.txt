@@ -1,0 +1,12 @@
+F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.Data\bin\Debug\Infraestructura.Data.dll.config
+F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.Data\bin\Debug\Infraestructura.Data.dll
+F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.Data\bin\Debug\Infraestructura.Data.pdb
+F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.Data\bin\Debug\Dominio.Entidades.dll
+F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.Data\bin\Debug\EntityFramework.dll
+F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.Data\bin\Debug\Dominio.Entidades.pdb
+F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.Data\bin\Debug\EntityFramework.xml
+F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.Data\obj\Debug\Infraestructura.Data.csproj.AssemblyReference.cache
+F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.Data\obj\Debug\Infraestructura.Data.csproj.CoreCompileInputs.cache
+F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.Data\obj\Debug\Infraestructura.Data.csproj.CopyComplete
+F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.Data\obj\Debug\Infraestructura.Data.dll
+F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.Data\obj\Debug\Infraestructura.Data.pdb
