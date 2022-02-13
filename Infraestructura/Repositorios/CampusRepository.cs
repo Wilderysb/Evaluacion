@@ -20,22 +20,12 @@ namespace Infraestructura.Repositorios
         }
 
         public override Campus ObtenerPorId(int id) {
-            return _universidadContext.Campus.FirstOrDefault();
+            return _universidadContext.Campus.Where(p => p.IdCampus == id).SingleOrDefault();
         }
 
         public override List<Campus> ObtenerTodo() {
             return _universidadContext.Campus.ToList();
         }
-
-            
-        //public override Campus ObtenerPorId(int id)
-        //{
-        //    return universidadContext.Campus.SingleOrDefault(q=>q.Id==id);
-        //}
         
-        //public override List<Campus> ObtenerTodo()
-        //{
-        //    return universidadContext.Campus.ToList();
-        //}
     }
 }

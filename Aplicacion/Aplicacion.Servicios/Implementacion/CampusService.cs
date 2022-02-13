@@ -25,11 +25,14 @@ namespace Aplicacion.Aplicacion.Servicios.Implementacion
             return campus != null ? campus.ConvertirDto() : null;
         }
 
-        public List<Campus> ObtenerTodo()
+        public List<CampusDto> ObtenerTodo()
         {
             var listaCampus = _campusRepository.ObtenerTodo();
+            
+            var query= from p in listaCampus
+                       select new CampusDto{Id= p.IdCampus,NombreCampus=p.NombreCampus};
 
-            return listaCampus;
+            return query.ToList();
         }
     }
 }

@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace Aplicacion.Aplicacion.Servicios.Interface
 {
-    public interface ICampusService
+    public interface ITipoEventoService
     {
-        CampusDto ObtenerPorId(int id);
-        List<CampusDto> ObtenerTodo();
+        TipoEvento ObtenerPorId(int id);
+
     }
 }

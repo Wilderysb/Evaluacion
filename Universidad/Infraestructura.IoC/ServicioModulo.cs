@@ -14,6 +14,7 @@ namespace Infraestructura.IoC
         protected override void Load(ContainerBuilder builder)
         {
             builder.RegisterType<CampusService>().As<ICampusService>().InstancePerLifetimeScope();
+            builder.RegisterType<TipoEventoService>().As<ITipoEventoService>().InstancePerLifetimeScope();
 
 
         }

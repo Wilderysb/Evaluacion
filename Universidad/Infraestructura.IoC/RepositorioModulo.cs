@@ -15,6 +15,7 @@ namespace Infraestructura.IoC
         protected override void Load(ContainerBuilder builder)
         {
             builder.RegisterType<CampusRepository>().As<ICampusRepository>().InstancePerLifetimeScope();
+            builder.RegisterType<TipoEventoRepository>().As<ITipoEventoRepository>().InstancePerLifetimeScope();
 
 
         }

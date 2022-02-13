@@ -17,7 +17,7 @@ namespace FrontNet.Controllers
         }
         public ActionResult Index()
         {
-            var x = _campusService.ObtenerTodo();
+            var x = _campusService.ObtenerPorId(2);
 
             return View();
         }
