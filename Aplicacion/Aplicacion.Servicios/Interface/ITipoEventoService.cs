@@ -9,7 +9,9 @@ namespace Aplicacion.Aplicacion.Servicios.Interface
 {
     public interface ITipoEventoService
     {
-        TipoEvento ObtenerPorId(int id);
+        TipoEventoDto ObtenerPorId(int id);
+
+        List<TipoEventoDto> ObtenerTodo();
 
     }
 }

@@ -17,10 +17,5 @@ namespace Infraestructura.Repositorios
 
         }
 
-        public override TipoEvento ObtenerPorId(int id)
-        {
-            return _universidadContext.TipoEvento.Where(p => p.IdTipoEvento == id).SingleOrDefault();
-        }
-
     }
 }

@@ -11,5 +11,6 @@ namespace Dominio.Dominio.Servicios.Interface
     {
         TipoEvento ObtenerPorId(int id);
 
+
     }
 }

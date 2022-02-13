@@ -10,14 +10,17 @@ namespace FrontNet.Controllers
     public class HomeController : Controller
     {
         private ICampusService _campusService;
+        private ITipoEventoService _tipoEventoService;
 
-        public HomeController(ICampusService campusService)
+        public HomeController(ITipoEventoService tipoEventoService,ICampusService campusService)
         {
             _campusService = campusService;
+            _tipoEventoService = tipoEventoService;
         }
         public ActionResult Index()
         {
             var x = _campusService.ObtenerPorId(2);
+            var y = _tipoEventoService.ObtenerTodo();
 
             return View();
         }
