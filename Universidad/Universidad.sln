@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infraestructura.IoC", "Infr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infraestructura.Core", "Infraestructura.Core\Infraestructura.Core.csproj", "{05BDAFD2-199C-46F9-9D24-849F902B9E9F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Front", "Front\Front.csproj", "{5BC5FF48-37B0-4900-A02C-21886E8A04A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helpers", "Helpers\Helpers.csproj", "{E3535C0F-1AE0-436D-B216-E4D9B937B71C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{05BDAFD2-199C-46F9-9D24-849F902B9E9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05BDAFD2-199C-46F9-9D24-849F902B9E9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05BDAFD2-199C-46F9-9D24-849F902B9E9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BC5FF48-37B0-4900-A02C-21886E8A04A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BC5FF48-37B0-4900-A02C-21886E8A04A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BC5FF48-37B0-4900-A02C-21886E8A04A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BC5FF48-37B0-4900-A02C-21886E8A04A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3535C0F-1AE0-436D-B216-E4D9B937B71C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3535C0F-1AE0-436D-B216-E4D9B937B71C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3535C0F-1AE0-436D-B216-E4D9B937B71C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3535C0F-1AE0-436D-B216-E4D9B937B71C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

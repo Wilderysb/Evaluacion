@@ -152,6 +152,7 @@ F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\Autofac.dll
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\Autofac.Integration.Mvc.dll
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\Dominio.Entidades.dll
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\EntityFramework.dll
+F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\Helpers.dll
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\Infraestructura.IoC.dll
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\Microsoft.Bcl.AsyncInterfaces.dll
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
@@ -181,6 +182,7 @@ F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\Infraestructura.dl
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\Aplicacion.pdb
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\Aplicacion.dll.config
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\Dominio.Entidades.pdb
+F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\Helpers.pdb
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\Infraestructura.IoC.pdb
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\Infraestructura.IoC.dll.config
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\Autofac.pdb
@@ -194,6 +196,8 @@ F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\System.Memory.xml
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\System.Numerics.Vectors.xml
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\System.Runtime.CompilerServices.Unsafe.xml
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\System.Threading.Tasks.Extensions.xml
+F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\System.Web.Http.xml
+F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\System.Web.Http.WebHost.xml
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\System.Web.Helpers.xml
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\System.Web.Mvc.xml
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\System.Web.Optimization.xml
@@ -203,9 +207,6 @@ F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\System.Web.WebPage
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\System.Web.WebPages.Razor.xml
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\Newtonsoft.Json.xml
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\Antlr3.Runtime.pdb
-F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\System.Net.Http.Formatting.xml
-F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\System.Web.Http.xml
-F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\System.Web.Http.WebHost.xml
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\Dominio.pdb
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\Dominio.dll.config

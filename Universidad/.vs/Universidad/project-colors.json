@@ -45,7 +45,17 @@
       "ProjectGuid": "05bdafd2-199c-46f9-9d24-849f902b9e9f",
       "DisplayName": "Infraestructura.Core",
       "ColorIndex": 8
+    },
+    "5bc5ff48-37b0-4900-a02c-21886e8a04a3": {
+      "ProjectGuid": "5bc5ff48-37b0-4900-a02c-21886e8a04a3",
+      "DisplayName": "Front",
+      "ColorIndex": 9
+    },
+    "e3535c0f-1ae0-436d-b216-e4d9b937b71c": {
+      "ProjectGuid": "e3535c0f-1ae0-436d-b216-e4d9b937b71c",
+      "DisplayName": "Helpers",
+      "ColorIndex": 10
     }
   },
-  "NextColorIndex": 9
+  "NextColorIndex": 11
 }
