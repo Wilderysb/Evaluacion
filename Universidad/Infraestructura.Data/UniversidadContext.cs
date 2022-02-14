@@ -13,10 +13,10 @@ namespace Infraestructura.Data
         public UniversidadContext() : base("DefaultConnection")
         {
             Database.SetInitializer<UniversidadContext>(null);
-           // Configuration.LazyLoadingEnabled = false;
+            // Configuration.LazyLoadingEnabled = false;
         }
 
-        public virtual DbSet<AsistenciaEvento> AsistenciaEvento { get;set; }
+        public virtual DbSet<AsistenciaEvento> AsistenciaEvento { get; set; }
         public virtual DbSet<Campus> Campus { get; set; }
         public virtual DbSet<Docente> Docente { get; set; }
         public virtual DbSet<Evento> Evento { get; set; }
@@ -24,5 +24,11 @@ namespace Infraestructura.Data
         public virtual DbSet<TipoEvento> TipoEvento { get; set; }
         public virtual DbSet<Ubicacion> Ubicacion { get; set; }
 
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<TipoEvento>().ToTable("TipoEvento");
+            modelBuilder.Entity<SubTipoEvento>().ToTable("SubTipoEvento");
+
+        }
     }
 }

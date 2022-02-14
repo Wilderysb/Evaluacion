@@ -31,9 +31,23 @@ namespace Infraestructura.Core
             return _universidadContext.Set<TEntity>().ToList();
         }
 
+        protected virtual void Dispose(bool disposing)
+        {
+            if (!disposed)
+            {
+                if (disposing)
+                {
+                    _universidadContext.Dispose();
+                }
+            }
+            disposed = true;
+        }
+
         public void Dispose()
         {
-            throw new NotImplementedException();
+            Dispose(true);
+            GC.SuppressFinalize(this);
+
         }
     }
 }

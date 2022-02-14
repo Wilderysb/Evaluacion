@@ -44,11 +44,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Dominio.Servicios\Implementacion\CampusService.cs" />
+    <Compile Include="Dominio.Servicios\Implementacion\SubTipoEventoService.cs" />
     <Compile Include="Dominio.Servicios\Implementacion\TipoEventoService.cs" />
     <Compile Include="Dominio.Servicios\Interface\ICampusService.cs" />
+    <Compile Include="Dominio.Servicios\Interface\ISubTipoEventoService.cs" />
     <Compile Include="Dominio.Servicios\Interface\ITipoEventoService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositorios.Contratos\ICampusRepository.cs" />
+    <Compile Include="Repositorios.Contratos\IDocenteRepository.cs" />
+    <Compile Include="Repositorios.Contratos\ISubTipoEventoRepository.cs" />
     <Compile Include="Repositorios.Contratos\ITipoEventoRepository.cs" />
   </ItemGroup>
   <ItemGroup>

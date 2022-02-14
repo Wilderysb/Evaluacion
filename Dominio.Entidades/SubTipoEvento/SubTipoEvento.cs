@@ -15,6 +15,15 @@ namespace Dominio.Entidades
 
         public string DesSubTipoEvento { get; set; }
 
-       public virtual List<Evento> Eventos { get; set; }
+        //public virtual List<Evento> Eventos { get; set; }
+
+        public SubTipoEventoDto ConvertirDto()
+        {
+            return new SubTipoEventoDto()
+            {
+                IdSubTipoEvento = this.IdSubTipoEvento,
+                DesSubTipoEvento = this.DesSubTipoEvento
+            };
+        }
     }
 }

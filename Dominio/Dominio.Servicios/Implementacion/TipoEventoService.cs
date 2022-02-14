@@ -1,4 +1,5 @@
-﻿using Dominio.Entidades;
+﻿using Dominio.Dominio.Servicios.Interface;
+using Dominio.Entidades;
 using Dominio.Repositorios.Contratos;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Dominio.Dominio.Servicios.Implementacion
 {
-    public class TipoEventoService
+    public class TipoEventoService : ITipoEventoService
     {
         ITipoEventoRepository _tipoEventoRepository;
 

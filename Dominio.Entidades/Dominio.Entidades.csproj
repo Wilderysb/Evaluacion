@@ -51,6 +51,7 @@
     <Compile Include="GenericResponse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SubTipoEvento\SubTipoEvento.cs" />
+    <Compile Include="SubTipoEvento\SubTipoEventoDto.cs" />
     <Compile Include="TipoEvento\TipoEvento.cs" />
     <Compile Include="TipoEvento\TipoEventoDto.cs" />
     <Compile Include="Ubicacion\Ubicacion.cs" />
