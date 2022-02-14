@@ -46,6 +46,7 @@
     <Compile Include="Campus\Campus.cs" />
     <Compile Include="Campus\CampusDto.cs" />
     <Compile Include="Docente\Docente.cs" />
+    <Compile Include="Docente\DocenteDto.cs" />
     <Compile Include="Enumerador\Enumerador.cs" />
     <Compile Include="Evento\Evento.cs" />
     <Compile Include="GenericResponse.cs" />

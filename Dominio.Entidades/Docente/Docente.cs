@@ -18,5 +18,14 @@ namespace Dominio.Entidades
 
         public string CodigoDocente { get; set; }
 
+        public DocenteDto ConvertirDto()
+        {
+            return new DocenteDto()
+            {
+                Id = this.Id,
+                NombreDocente = this.NombreDocente,
+                CodigoDocente=this.CodigoDocente
+            };
+        }
     }
 }

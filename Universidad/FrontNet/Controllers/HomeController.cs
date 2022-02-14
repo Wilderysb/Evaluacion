@@ -12,19 +12,25 @@ namespace FrontNet.Controllers
         private ICampusService _campusService;
         private ITipoEventoService _tipoEventoService;
         private ISubTipoEventoService _subTipoEventoService;
+        private IDocenteService _docenteService;
 
-        public HomeController(ITipoEventoService tipoEventoService,ICampusService campusService,ISubTipoEventoService subTipoEventoService)
+        public HomeController(ITipoEventoService tipoEventoService,
+            ICampusService campusService,
+            ISubTipoEventoService subTipoEventoService,
+            IDocenteService docenteService
+            )
         {
             _campusService = campusService;
             _tipoEventoService = tipoEventoService;
             _subTipoEventoService = subTipoEventoService;
+            _docenteService = docenteService;
         }
         public ActionResult Index()
         {
             var a = _campusService.ObtenerPorId(2);
             var b = _tipoEventoService.ObtenerTodo();
             var c = _subTipoEventoService.ObtenerTodoPorId(5);
-
+            var d = _docenteService.ObtenerTodo();
             return View();
         }
 

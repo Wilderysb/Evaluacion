@@ -17,6 +17,7 @@ namespace Infraestructura.IoC
             builder.RegisterType<CampusRepository>().As<ICampusRepository>().InstancePerLifetimeScope();
             builder.RegisterType<TipoEventoRepository>().As<ITipoEventoRepository>().InstancePerLifetimeScope();
             builder.RegisterType<SubTipoEventoRepository>().As<ISubTipoEventoRepository>().InstancePerLifetimeScope();
+            builder.RegisterType<DocenteRepository>().As<IDocenteRepository>().InstancePerLifetimeScope();
 
         }
     }

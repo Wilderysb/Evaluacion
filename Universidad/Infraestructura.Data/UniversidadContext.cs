@@ -28,6 +28,8 @@ namespace Infraestructura.Data
         {
             modelBuilder.Entity<TipoEvento>().ToTable("TipoEvento");
             modelBuilder.Entity<SubTipoEvento>().ToTable("SubTipoEvento");
+            modelBuilder.Entity<Docente>().ToTable("Docente");
+
 
         }
     }

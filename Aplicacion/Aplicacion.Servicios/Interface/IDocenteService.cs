@@ -1,16 +1,14 @@
 ﻿using Dominio.Entidades;
-using Infraestructura.Core;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Dominio.Repositorios.Contratos
+namespace Aplicacion.Aplicacion.Servicios.Interface
 {
-    public interface IDocenteRepository:IRepositoryBase<Docente>
+    public interface IDocenteService
     {
-
-
+        List<DocenteDto> ObtenerTodo();
     }
 }

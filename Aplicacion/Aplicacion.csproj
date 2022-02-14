@@ -42,9 +42,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Aplicacion.Servicios\Implementacion\CampusService.cs" />
+    <Compile Include="Aplicacion.Servicios\Implementacion\DocenteService.cs" />
     <Compile Include="Aplicacion.Servicios\Implementacion\SubTipoEventoService.cs" />
     <Compile Include="Aplicacion.Servicios\Implementacion\TipoEventoService.cs" />
     <Compile Include="Aplicacion.Servicios\Interface\ICampusService.cs" />
+    <Compile Include="Aplicacion.Servicios\Interface\IDocenteService.cs" />
     <Compile Include="Aplicacion.Servicios\Interface\ISubTipoEventoService.cs" />
     <Compile Include="Aplicacion.Servicios\Interface\ITipoEventoService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
