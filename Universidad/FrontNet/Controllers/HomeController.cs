@@ -40,7 +40,7 @@ namespace FrontNet.Controllers
             ClienteHttp clienteHttp = new ClienteHttp();
             var BaseUrl = "https://apifake.azurewebsites.net/";
             //Servicio de Fake Publicado.
-            //var e = clienteHttp.ObtenerRespuesta(BaseUrl);
+            var e = clienteHttp.ObtenerRespuesta(BaseUrl);
 
             return View();
         }
