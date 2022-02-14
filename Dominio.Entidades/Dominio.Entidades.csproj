@@ -45,6 +45,7 @@
     <Compile Include="AsistenciaEvento\AsistenciaEvento.cs" />
     <Compile Include="Campus\Campus.cs" />
     <Compile Include="Campus\CampusDto.cs" />
+    <Compile Include="Carga\Carga.cs" />
     <Compile Include="Docente\Docente.cs" />
     <Compile Include="Docente\DocenteDto.cs" />
     <Compile Include="Enumerador\Enumerador.cs" />

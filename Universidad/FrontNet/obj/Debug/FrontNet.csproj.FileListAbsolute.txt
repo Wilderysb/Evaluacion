@@ -1,3 +1,6 @@
+F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\roslyn\System.Collections.Immutable.dll
+F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\System.Security.SecureString.dll
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\FrontNet.dll.config
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\FrontNet.dll
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\FrontNet.pdb
@@ -12,7 +15,6 @@ F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\roslyn\Microsoft.C
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\roslyn\Microsoft.CodeAnalysis.dll
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\roslyn\Microsoft.CSharp.Core.targets
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
@@ -20,7 +22,6 @@ F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\roslyn\Microsoft.M
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\roslyn\Microsoft.VisualBasic.Core.targets
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\roslyn\Microsoft.Win32.Primitives.dll
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\roslyn\System.AppContext.dll
-F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\roslyn\System.Collections.Immutable.dll
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\roslyn\System.Console.dll
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
@@ -128,7 +129,6 @@ F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\System.Security.Cr
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\System.Security.Cryptography.Primitives.dll
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\System.Security.Cryptography.X509Certificates.dll
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\System.Security.Principal.dll
-F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\System.Security.SecureString.dll
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\System.Text.Encoding.dll
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\System.Text.Encoding.Extensions.dll
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontNet\bin\System.Text.RegularExpressions.dll

@@ -17,13 +17,16 @@ namespace FrontNet.Controllers
         private ITipoEventoService _tipoEventoService;
         private ISubTipoEventoService _subTipoEventoService;
         private IDocenteService _docenteService;
+        private ICargaService<TEntity> _cargaService;
 
         public HomeController(ITipoEventoService tipoEventoService,
             ICampusService campusService,
             ISubTipoEventoService subTipoEventoService,
-            IDocenteService docenteService
+            IDocenteService docenteService,
+            ICargaService<TEntity> cargaService
             )
         {
+            _cargaService = cargaService;
             _campusService = campusService;
             _tipoEventoService = tipoEventoService;
             _subTipoEventoService = subTipoEventoService;
