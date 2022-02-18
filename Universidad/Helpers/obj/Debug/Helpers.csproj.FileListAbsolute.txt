@@ -1,5 +1,6 @@
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\Helpers\bin\Debug\Helpers.dll
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\Helpers\bin\Debug\Helpers.pdb
+F:\Projects\PruebaTecnica\Evaluacion\Universidad\Helpers\obj\Debug\Helpers.csproj.AssemblyReference.cache
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\Helpers\obj\Debug\Helpers.csproj.CoreCompileInputs.cache
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\Helpers\obj\Debug\Helpers.dll
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\Helpers\obj\Debug\Helpers.pdb

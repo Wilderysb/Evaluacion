@@ -100,6 +100,7 @@ F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\bin\Debug\S
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\bin\Debug\Aplicacion.dll
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\bin\Debug\Autofac.dll
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\bin\Debug\Dominio.dll
+F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\bin\Debug\Dominio.Entidades.dll
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\bin\Debug\Infraestructura.Data.dll
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\bin\Debug\Infraestructura.dll
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
@@ -109,18 +110,18 @@ F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\bin\Debug\S
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\bin\Debug\System.Numerics.Vectors.dll
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\bin\Debug\System.Threading.Tasks.Extensions.dll
-F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\bin\Debug\Dominio.Entidades.dll
+F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\bin\Debug\EPPlus.dll
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\bin\Debug\Infraestructura.Core.dll
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\bin\Debug\EntityFramework.dll
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\bin\Debug\Aplicacion.pdb
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\bin\Debug\Aplicacion.dll.config
+F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\bin\Debug\Dominio.Entidades.pdb
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\bin\Debug\Dominio.pdb
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\bin\Debug\Dominio.dll.config
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\bin\Debug\Infraestructura.pdb
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\bin\Debug\Infraestructura.dll.config
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\bin\Debug\Infraestructura.Data.pdb
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\bin\Debug\Infraestructura.Data.dll.config
-F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\bin\Debug\Autofac.pdb
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\bin\Debug\Autofac.xml
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\bin\Debug\System.Buffers.xml
@@ -129,7 +130,7 @@ F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\bin\Debug\S
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\bin\Debug\System.Numerics.Vectors.xml
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\bin\Debug\System.Threading.Tasks.Extensions.xml
-F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\bin\Debug\Dominio.Entidades.pdb
+F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\bin\Debug\EPPlus.xml
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\bin\Debug\Infraestructura.Core.pdb
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\bin\Debug\Infraestructura.Core.dll.config
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\bin\Debug\EntityFramework.xml

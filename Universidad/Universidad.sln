@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.32126.317
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aplicacion", "..\Aplicacion\Aplicacion.csproj", "{116FB3D5-1AD6-49A6-8849-8B61381D1790}"
 EndProject
@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio.Entidades", "..\Dom
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infraestructura", "..\Infraestructura\Infraestructura.csproj", "{343E3C5F-2C48-448E-90CC-2DBFE1C03A9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontNet", "FrontNet\FrontNet.csproj", "{7CB8EC75-DCF3-4B27-BDF6-AC796E98EC5A}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infraestructura.Data", "Infraestructura.Data\Infraestructura.Data.csproj", "{F8786F27-0B6F-4FD2-AD12-51E38B6F5832}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infraestructura.IoC", "Infraestructura.IoC\Infraestructura.IoC.csproj", "{2D966585-469D-4602-8381-DA141F695B31}"
@@ -20,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infraestructura.Core", "Infraestructura.Core\Infraestructura.Core.csproj", "{05BDAFD2-199C-46F9-9D24-849F902B9E9F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helpers", "Helpers\Helpers.csproj", "{E3535C0F-1AE0-436D-B216-E4D9B937B71C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontEnd", "FrontEnd\FrontEnd.csproj", "{CA2C94CB-E941-44BE-8BE4-5DD9646FF743}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,10 +43,6 @@ Global
 		{343E3C5F-2C48-448E-90CC-2DBFE1C03A9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{343E3C5F-2C48-448E-90CC-2DBFE1C03A9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{343E3C5F-2C48-448E-90CC-2DBFE1C03A9D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7CB8EC75-DCF3-4B27-BDF6-AC796E98EC5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7CB8EC75-DCF3-4B27-BDF6-AC796E98EC5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7CB8EC75-DCF3-4B27-BDF6-AC796E98EC5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7CB8EC75-DCF3-4B27-BDF6-AC796E98EC5A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F8786F27-0B6F-4FD2-AD12-51E38B6F5832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F8786F27-0B6F-4FD2-AD12-51E38B6F5832}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8786F27-0B6F-4FD2-AD12-51E38B6F5832}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -63,6 +59,10 @@ Global
 		{E3535C0F-1AE0-436D-B216-E4D9B937B71C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3535C0F-1AE0-436D-B216-E4D9B937B71C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3535C0F-1AE0-436D-B216-E4D9B937B71C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA2C94CB-E941-44BE-8BE4-5DD9646FF743}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA2C94CB-E941-44BE-8BE4-5DD9646FF743}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA2C94CB-E941-44BE-8BE4-5DD9646FF743}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA2C94CB-E941-44BE-8BE4-5DD9646FF743}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

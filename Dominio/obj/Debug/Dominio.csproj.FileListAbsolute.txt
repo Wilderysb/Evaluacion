@@ -2,12 +2,14 @@ F:\Projects\PruebaTecnica\Evaluacion\Dominio\bin\Debug\Dominio.dll.config
 F:\Projects\PruebaTecnica\Evaluacion\Dominio\bin\Debug\Dominio.dll
 F:\Projects\PruebaTecnica\Evaluacion\Dominio\bin\Debug\Dominio.pdb
 F:\Projects\PruebaTecnica\Evaluacion\Dominio\bin\Debug\Dominio.Entidades.dll
+F:\Projects\PruebaTecnica\Evaluacion\Dominio\bin\Debug\EPPlus.dll
 F:\Projects\PruebaTecnica\Evaluacion\Dominio\bin\Debug\Infraestructura.Core.dll
 F:\Projects\PruebaTecnica\Evaluacion\Dominio\bin\Debug\Infraestructura.Data.dll
 F:\Projects\PruebaTecnica\Evaluacion\Dominio\bin\Debug\EntityFramework.dll
 F:\Projects\PruebaTecnica\Evaluacion\Dominio\bin\Debug\Dominio.Entidades.pdb
 F:\Projects\PruebaTecnica\Evaluacion\Dominio\bin\Debug\Infraestructura.Core.pdb
 F:\Projects\PruebaTecnica\Evaluacion\Dominio\bin\Debug\Infraestructura.Core.dll.config
+F:\Projects\PruebaTecnica\Evaluacion\Dominio\bin\Debug\EPPlus.xml
 F:\Projects\PruebaTecnica\Evaluacion\Dominio\bin\Debug\Infraestructura.Data.pdb
 F:\Projects\PruebaTecnica\Evaluacion\Dominio\bin\Debug\Infraestructura.Data.dll.config
 F:\Projects\PruebaTecnica\Evaluacion\Dominio\bin\Debug\EntityFramework.xml

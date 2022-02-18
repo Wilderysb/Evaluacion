@@ -1,4 +1,5 @@
 ﻿using Autofac;
+using Dominio.Entidades;
 using Dominio.Repositorios.Contratos;
 using Infraestructura.Data;
 using Infraestructura.Repositorios;
@@ -19,7 +20,14 @@ namespace Infraestructura.IoC
             builder.RegisterType<SubTipoEventoRepository>().As<ISubTipoEventoRepository>().InstancePerLifetimeScope();
             builder.RegisterType<DocenteRepository>().As<IDocenteRepository>().InstancePerLifetimeScope();
             //Registro del Generico
+
+
+            //builder.RegisterType<CargaRepository<>>().As<ICargaRepository<>>();
             builder.RegisterGeneric(typeof(CargaRepository<>)).As(typeof(ICargaRepository<>));
+            //builder.RegisterType<ServiceA>().As<IService<MessageA>>().As<IService>();
+
+
+            //builder.RegisterGeneric(typeof(CargaRepository<>)).As(typeof(ICargaRepository<>));
             //builder.RegisterType<CargaRepository>().As<ICargaRepository>().InstancePerLifetimeScope();
 
         }
