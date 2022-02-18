@@ -12,7 +12,9 @@ namespace Dominio.Repositorios.Contratos
 {
     public interface ICargaRepository<TEntity> : IRepositoryBase<Carga>
     {
-        ExcelWorksheet ObtenerWorkSheet(HttpPostedFileBase httpPostedFileBase);
+        List<T> ObtenerWorkSheet<T>(HttpPostedFileBase httpPostedFileBase);
+
+        //List<T> ObtenerListaWS<T>(ExcelWorksheet sheet);
         //bool SubirArchivo(TEntity T, string nombreArchivo/*, HttpPostedFileBase httpPostedBaseFileBase*/);
 
     }

@@ -10,6 +10,6 @@ namespace Dominio.Dominio.Servicios.Interface
 {
     public interface ICargaService<TEntity>
     {
-        ExcelWorksheet ObtenerWorkSheet(HttpPostedFileBase httpPostedFileBase);
+        List<T> ObtenerWorkSheet<T>(HttpPostedFileBase httpPostedFileBase);
     }
 }

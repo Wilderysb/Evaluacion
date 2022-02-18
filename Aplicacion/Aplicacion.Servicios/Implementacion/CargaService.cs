@@ -20,10 +20,22 @@ namespace Aplicacion.Aplicacion.Servicios.Implementacion
             _cargaRepository = cargaRepository;
         }
 
-        public ExcelWorksheet ObtenerWorkSheet(HttpPostedFileBase httpPostedFileBase)
+        //public List<TEntity> ObtenerListaWS<T>(ExcelWorksheet sheet)
+        //{
+        //    return _cargaRepository.ObtenerListaWS<T>(sheet);
+        //}
+
+        public List<T> ObtenerWorkSheet<T>(HttpPostedFileBase httpPostedFileBase)
         {
-           return _cargaRepository.ObtenerWorkSheet(httpPostedFileBase);
+           return _cargaRepository.ObtenerWorkSheet<T>(httpPostedFileBase);
         }
+
+       
+
+        //List<T> ICargaService<TEntity>.ObtenerListaWS<T>(ExcelWorksheet sheet)
+        //{
+        //    return _cargaRepository.ObtenerListaWS<T>(sheet);
+        //}
         //public bool CargarArchivo(TEntity T,string nombreArchivo)
         //{
         //    _cargaRepository.SubirArchivo(T, nombreArchivo);

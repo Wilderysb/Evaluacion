@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Aplicacion.Aplicacion.Servicios.Interface;
+using Dominio.Entidades;
+using FrontEnd.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,6 +11,13 @@ namespace FrontEnd.Controllers
 {
     public class UploadController : Controller
     {
+        private ICargaService <CampusExcel> _cargaCampusService;
+
+        public UploadController(ICargaService<CampusExcel> cargaCampusService)
+        {
+            _cargaCampusService = cargaCampusService;
+        }
+        
         // GET: Upload
         public ActionResult Index()
         {
@@ -25,6 +35,11 @@ namespace FrontEnd.Controllers
             try
             {
                 var x = file;
+
+                var y = _cargaCampusService.ObtenerWorkSheet<CampusExcel>(file);
+
+                //var z = _cargaCampusService.ObtenerListaWS<CampusExcel>(y);
+
                 //if (file.ContentLength > 0)
                 //{
                 //    string _FileName = Path.GetFileName(file.FileName);

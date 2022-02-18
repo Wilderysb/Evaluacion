@@ -20,10 +20,12 @@ namespace Dominio.Dominio.Servicios.Implementacion
 
         }
 
-        public ExcelWorksheet ObtenerWorkSheet(HttpPostedFileBase httpPostedFileBase)
+        public List<T> ObtenerWorkSheet<T>(HttpPostedFileBase httpPostedFileBase)
         {
-            return _cargaRepository.ObtenerWorkSheet(httpPostedFileBase);
+            return _cargaRepository.ObtenerWorkSheet<T>(httpPostedFileBase);
         }
+
+        
 
 
 

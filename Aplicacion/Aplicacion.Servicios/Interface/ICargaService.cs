@@ -12,6 +12,8 @@ namespace Aplicacion.Aplicacion.Servicios.Interface
     {
         //bool CargarArchivo(TEntity T, string nombreArchivo);
 
-        ExcelWorksheet ObtenerWorkSheet(HttpPostedFileBase httpPostedFileBase);
+        List<T> ObtenerWorkSheet<T>(HttpPostedFileBase httpPostedFileBase);
+
+        //List<T> ObtenerListaWS<T>(ExcelWorksheet sheet);
     }
 }

@@ -1,3 +1,5 @@
+F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\obj\Debug\Infraestructura.IoC.csproj.AssemblyReference.cache
+F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\obj\Debug\Infraestructura.IoC.csproj.CoreCompileInputs.cache
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\bin\Debug\Infraestructura.IoC.dll.config
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\bin\Debug\Infraestructura.IoC.dll
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\bin\Debug\Infraestructura.IoC.pdb
@@ -134,8 +136,6 @@ F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\bin\Debug\E
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\bin\Debug\Infraestructura.Core.pdb
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\bin\Debug\Infraestructura.Core.dll.config
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\bin\Debug\EntityFramework.xml
-F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\obj\Debug\Infraestructura.IoC.csproj.AssemblyReference.cache
-F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\obj\Debug\Infraestructura.IoC.csproj.CoreCompileInputs.cache
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\obj\Debug\Infraestructura.IoC.csproj.CopyComplete
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\obj\Debug\Infraestructura.IoC.dll
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\Infraestructura.IoC\obj\Debug\Infraestructura.IoC.pdb

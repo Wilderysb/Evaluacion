@@ -8,6 +8,7 @@ using OfficeOpenXml;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Web;
 
 namespace Infraestructura.Repositorios
@@ -20,27 +21,182 @@ namespace Infraestructura.Repositorios
 
         }
 
-        public ExcelWorksheet ObtenerWorkSheet(HttpPostedFileBase httpPostedFileBase) {
+        //public List<T> ObtenerWorkSheet(HttpPostedFileBase httpPostedFileBase) {
 
-           // string file = @"D:\ForVideos\Demo\cs\data2.xlsx";
+        //   // string file = @"D:\ForVideos\Demo\cs\data2.xlsx";
+
+        //    ExcelWorksheet excelWorksheet;
+
+        //    Stream streamFile = httpPostedFileBase.InputStream;
+
+        //    MemoryStream ms;
+
+        //    List<T> list = new List<T>();
+
+        //    try
+        //    {
+        //        using (Stream inputStream = httpPostedFileBase.InputStream)
+        //        {
+        //            ms = new MemoryStream();
+        //            inputStream.CopyTo(ms);
+        //            using (var package = new ExcelPackage(ms))
+        //            {
+        //                ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
+
+        //                excelWorksheet = package.Workbook.Worksheets[2];                        
+
+        //                var columnInfo = Enumerable.Range(1, excelWorksheet.Dimension.Columns).ToList().Select(n =>
+
+        //                    new { Index = n, ColumnName = excelWorksheet.Cells[1, n].Value.ToString() }
+        //                );
+
+        //                for (int row = 2; row < excelWorksheet.Dimension.Rows; row++)
+        //                {
+        //                    T obj = (T)Activator.CreateInstance(typeof(T));//generic object
+        //                    foreach (var prop in typeof(T).GetProperties())
+        //                    {
+        //                        int col = columnInfo.SingleOrDefault(c => c.ColumnName == prop.Name).Index;
+        //                        var val = excelWorksheet.Cells[row, col].Value;
+        //                        var propType = prop.PropertyType;
+        //                        prop.SetValue(obj, Convert.ChangeType(val, propType));
+        //                    }
+        //                    list.Add(obj);
+        //                }
+
+
+        //                //var columnas = excelWorksheet.Dimension.Columns;
+
+        //                //var columnInfo = Enumerable.Range(1, excelWorksheet.Dimension.Columns).ToList().Select(n =>
+
+        //                //new { Index = n, ColumnName = excelWorksheet.Cells[1, n].Value.ToString() });
+
+
+        //            }
+
+        //        }
+        //    }
+        //    catch (Exception ex)
+        //    {
+
+        //        throw;
+        //    }
+
+        //    return list;
+        //}
+
+        public List<T> ObtenerWorkSheet<T>(HttpPostedFileBase httpPostedFileBase)
+        {
+            // string file = @"D:\ForVideos\Demo\cs\data2.xlsx";
 
             ExcelWorksheet excelWorksheet;
 
             Stream streamFile = httpPostedFileBase.InputStream;
 
-            using (Stream inputStream = httpPostedFileBase.InputStream)
+            MemoryStream ms;
+
+            List<T> list = new List<T>();
+
+            try
             {
-                MemoryStream memoryStream = inputStream as MemoryStream;
-                using (var package = new ExcelPackage(memoryStream))
+                using (Stream inputStream = httpPostedFileBase.InputStream)
                 {
-                    excelWorksheet = package.Workbook.Worksheets[0];
+                    ms = new MemoryStream();
+                    inputStream.CopyTo(ms);
+                    using (var package = new ExcelPackage(ms))
+                    {
+                        ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
+
+                        excelWorksheet = package.Workbook.Worksheets[0];
+
+                        var columnInfo = Enumerable.Range(1, excelWorksheet.Dimension.Columns).ToList().Select(n =>
+
+                            new { Index = n, ColumnName = excelWorksheet.Cells[1, n].Value.ToString() }
+                        );
+
+                        for (int row = 2; row < excelWorksheet.Dimension.Rows; row++)
+                        {
+                            T obj = (T)Activator.CreateInstance(typeof(T));//generic object
+                            foreach (var prop in typeof(T).GetProperties())
+                            {
+                                int col = columnInfo.SingleOrDefault(c => c.ColumnName == prop.Name).Index;
+                                var val = excelWorksheet.Cells[row, col].Value;
+                                var propType = prop.PropertyType;
+                                prop.SetValue(obj, Convert.ChangeType(val, propType));
+                            }
+                            list.Add(obj);
+                        }
+
+
+                        //var columnas = excelWorksheet.Dimension.Columns;
+
+                        //var columnInfo = Enumerable.Range(1, excelWorksheet.Dimension.Columns).ToList().Select(n =>
+
+                        //new { Index = n, ColumnName = excelWorksheet.Cells[1, n].Value.ToString() });
+
+
+                    }
 
                 }
-
             }
-                
-            return excelWorksheet;
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+
+            return list;
         }
+
+        //private List<T> ObtenerListaWS<T>(ExcelWorksheet sheet)
+        //{
+        //    List<T> list = new List<T>();
+
+        //    var columnInfo = Enumerable.Range(1, sheet.Dimension.Columns).ToList().Select(n =>
+
+        //        new { Index = n, ColumnName = sheet.Cells[1, n].Value.ToString() }
+        //    );
+
+        //    for (int row = 2; row < sheet.Dimension.Rows; row++)
+        //    {
+        //        T obj = (T)Activator.CreateInstance(typeof(T));//generic object
+        //        foreach (var prop in typeof(T).GetProperties())
+        //        {
+        //            int col = columnInfo.SingleOrDefault(c => c.ColumnName == prop.Name).Index;
+        //            var val = sheet.Cells[row, col].Value;
+        //            var propType = prop.PropertyType;
+        //            prop.SetValue(obj, Convert.ChangeType(val, propType));
+        //        }
+        //        list.Add(obj);
+        //    }
+
+        //    return list;
+        //}
+
+        //List<T> ICargaRepository<TEntity>.ObtenerListaWS<T>(ExcelWorksheet sheet)
+        //{
+        //    List<T> list = new List<T>();
+
+        //    var columnInfo = Enumerable.Range(1, sheet.Dimension.Columns).ToList().Select(n =>
+
+        //        new { Index = n, ColumnName = sheet.Cells[1, n].Value.ToString() }
+        //    );
+
+        //    for (int row = 2; row < sheet.Dimension.Rows; row++)
+        //    {
+        //        T obj = (T)Activator.CreateInstance(typeof(T));//generic object
+        //        foreach (var prop in typeof(T).GetProperties())
+        //        {
+        //            int col = columnInfo.SingleOrDefault(c => c.ColumnName == prop.Name).Index;
+        //            var val = sheet.Cells[row, col].Value;
+        //            var propType = prop.PropertyType;
+        //            prop.SetValue(obj, Convert.ChangeType(val, propType));
+        //        }
+        //        list.Add(obj);
+        //    }
+
+        //    return list;
+        //}
+
 
 
         /*public List<T> SubirArchivo(TEntity T, string nombreArchivo )
@@ -167,7 +323,7 @@ namespace Infraestructura.Repositorios
             
         }
 
- */       
+ */
     }
 }
  
