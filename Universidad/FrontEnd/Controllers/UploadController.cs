@@ -1,6 +1,7 @@
 ﻿using Aplicacion.Aplicacion.Servicios.Interface;
 using Dominio.Entidades;
 using FrontEnd.Models;
+using FrontEnd.Models.ModelosExcel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,10 +13,12 @@ namespace FrontEnd.Controllers
     public class UploadController : Controller
     {
         private ICargaService <CampusExcel> _cargaCampusService;
+        private ICargaService<AsistenciaEventoExcel> _cargaAsistenciaEventoService;
 
-        public UploadController(ICargaService<CampusExcel> cargaCampusService)
+        public UploadController(ICargaService<CampusExcel> cargaCampusService,ICargaService<AsistenciaEventoExcel> cargaAsistenciaEventoService)
         {
             _cargaCampusService = cargaCampusService;
+            _cargaAsistenciaEventoService = cargaAsistenciaEventoService;
         }
         
         // GET: Upload
@@ -36,7 +39,7 @@ namespace FrontEnd.Controllers
             {
                 var x = file;
 
-                var y = _cargaCampusService.ObtenerWorkSheet<CampusExcel>(file);
+                var q = _cargaAsistenciaEventoService.ObtenerWorkSheet<AsistenciaEventoExcel>(file);
                 
                 ViewBag.Message = "File Uploaded Successfully!!";
                 return View();

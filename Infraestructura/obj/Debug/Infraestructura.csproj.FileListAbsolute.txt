@@ -1,5 +1,3 @@
-F:\Projects\PruebaTecnica\Evaluacion\Infraestructura\obj\Debug\Infraestructura.csproj.AssemblyReference.cache
-F:\Projects\PruebaTecnica\Evaluacion\Infraestructura\obj\Debug\Infraestructura.csproj.CoreCompileInputs.cache
 F:\Projects\PruebaTecnica\Evaluacion\Infraestructura\bin\Debug\Infraestructura.dll.config
 F:\Projects\PruebaTecnica\Evaluacion\Infraestructura\bin\Debug\Infraestructura.dll
 F:\Projects\PruebaTecnica\Evaluacion\Infraestructura\bin\Debug\Infraestructura.pdb
@@ -20,6 +18,8 @@ F:\Projects\PruebaTecnica\Evaluacion\Infraestructura\bin\Debug\Infraestructura.D
 F:\Projects\PruebaTecnica\Evaluacion\Infraestructura\bin\Debug\Infraestructura.Data.dll.config
 F:\Projects\PruebaTecnica\Evaluacion\Infraestructura\bin\Debug\EntityFramework.xml
 F:\Projects\PruebaTecnica\Evaluacion\Infraestructura\bin\Debug\EPPlus.xml
+F:\Projects\PruebaTecnica\Evaluacion\Infraestructura\obj\Debug\Infraestructura.csproj.AssemblyReference.cache
+F:\Projects\PruebaTecnica\Evaluacion\Infraestructura\obj\Debug\Infraestructura.csproj.CoreCompileInputs.cache
 F:\Projects\PruebaTecnica\Evaluacion\Infraestructura\obj\Debug\Infraestructura.csproj.CopyComplete
 F:\Projects\PruebaTecnica\Evaluacion\Infraestructura\obj\Debug\Infraestructura.dll
 F:\Projects\PruebaTecnica\Evaluacion\Infraestructura\obj\Debug\Infraestructura.pdb

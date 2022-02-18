@@ -1,5 +1,5 @@
-F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontEnd\obj\Debug\FrontEnd.csproj.CoreCompileInputs.cache
-F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontEnd\obj\Debug\FrontEnd.csproj.AssemblyReference.cache
+F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontEnd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontEnd\bin\roslyn\vbc.exe.config
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontEnd\bin\FrontEnd.dll.config
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontEnd\bin\FrontEnd.dll
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontEnd\bin\FrontEnd.pdb
@@ -10,7 +10,6 @@ F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontEnd\bin\roslyn\csi.exe
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontEnd\bin\roslyn\csi.exe.config
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontEnd\bin\roslyn\csi.rsp
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontEnd\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontEnd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontEnd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontEnd\bin\roslyn\Microsoft.CodeAnalysis.dll
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontEnd\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
@@ -48,7 +47,6 @@ F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontEnd\bin\roslyn\System.Xml.
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontEnd\bin\roslyn\System.Xml.XPath.dll
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontEnd\bin\roslyn\System.Xml.XPath.XDocument.dll
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontEnd\bin\roslyn\vbc.exe
-F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontEnd\bin\roslyn\vbc.exe.config
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontEnd\bin\roslyn\vbc.rsp
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontEnd\bin\roslyn\VBCSCompiler.exe
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontEnd\bin\roslyn\VBCSCompiler.exe.config
@@ -206,6 +204,8 @@ F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontEnd\bin\Infraestructura.Da
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontEnd\bin\Infraestructura.Data.dll.config
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontEnd\bin\Infraestructura.pdb
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontEnd\bin\Infraestructura.dll.config
+F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontEnd\obj\Debug\FrontEnd.csproj.AssemblyReference.cache
+F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontEnd\obj\Debug\FrontEnd.csproj.CoreCompileInputs.cache
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontEnd\obj\Debug\FrontEnd.csproj.CopyComplete
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontEnd\obj\Debug\FrontEnd.dll
 F:\Projects\PruebaTecnica\Evaluacion\Universidad\FrontEnd\obj\Debug\FrontEnd.pdb
