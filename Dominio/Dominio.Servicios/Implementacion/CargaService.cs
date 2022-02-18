@@ -25,18 +25,5 @@ namespace Dominio.Dominio.Servicios.Implementacion
             return _cargaRepository.ObtenerWorkSheet<T>(httpPostedFileBase);
         }
 
-        
-
-
-
-
-
-
-        //public bool CargarArchivo(TEntity T, string nombreArchivo)
-        //{
-        //    _cargaRepository.SubirArchivo(T, nombreArchivo);
-
-        //    return true;
-        //}
     }
 }

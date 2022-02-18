@@ -14,8 +14,6 @@ namespace Dominio.Repositorios.Contratos
     {
         List<T> ObtenerWorkSheet<T>(HttpPostedFileBase httpPostedFileBase);
 
-        //List<T> ObtenerListaWS<T>(ExcelWorksheet sheet);
-        //bool SubirArchivo(TEntity T, string nombreArchivo/*, HttpPostedFileBase httpPostedBaseFileBase*/);
 
     }
 }
